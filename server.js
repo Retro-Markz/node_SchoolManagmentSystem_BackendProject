@@ -6,8 +6,7 @@ require("./config/dbConnect");
 
 const PORT = process.env.PORT || 3000;
 
-//middlewarfe
-app.use(morgan("dev"));
+
 
 //server
 const server = http.createServer(app);
