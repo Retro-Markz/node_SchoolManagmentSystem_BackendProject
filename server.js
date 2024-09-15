@@ -1,6 +1,7 @@
 const http = require("http");
 const app = require("./app/app");
 const morgan = require("morgan");
+require("./config/dbConnect");
 
 const PORT = process.env.PORT || 3000;
 
